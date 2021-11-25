@@ -7,7 +7,7 @@ cp -r templates/* tempdir/templates/.
 cp -r templates/* tempdir/static/.
 #Création du fichier Dockerfile 
 
-#Lancement du build de l'image testapp à partir de Dockerfile
+#Lancement du build de l'image testapp à partir de Dockerfile sous /tempdir
 
 
 #lancement du container  testrunning avec l'image testapp
